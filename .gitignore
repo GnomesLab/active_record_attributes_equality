@@ -1,3 +1,4 @@
+*.gem
 .bundle
 rdoc/*
 .DS_Store

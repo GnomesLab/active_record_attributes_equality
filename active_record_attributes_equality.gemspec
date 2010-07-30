@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Diogo Almeida"]
   s.email       = ["diogo.almeida@gnomeslab.com"]
-  s.homepage    = ["github.com/GnomesLab/active_record_attributes_equality", "http://gnomeslab.com/"]
+  s.homepage    = "http://github.com/GnomesLab/active_record_attributes_equality/"
   s.summary     = "Forces ActiveRecord::Base equality to look into the attributes hash."
   s.description = "Active Record Attributes Equality is a very simple rails plugin / gem that forces ActiveRecord to compare the mode's attributes in the presence of two new records."
 
