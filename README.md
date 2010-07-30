@@ -22,6 +22,22 @@ Consider a User model that holds the notion of users that have a name.
   User.new(:name => "John") == User.new(:name => "John") #=> true
 </pre>
 
+
+### Installing
+
+#### As a gem (using bundler)
+
+<pre>
+gem "active_record_attributes_equality"
+</pre>
+
+#### As a Rails 3 plugin
+
+<pre>
+rails rails plugin install git@github.com:GnomesLab/active_record_attributes_equality.git
+</pre>
+
+
 ### Feedback, questions, improvements, critics or just say hi
 
 Feel free to fork the project and to send pull requests with your changes. Should you run into problems, please use the issue tracker made available in this Github project.
