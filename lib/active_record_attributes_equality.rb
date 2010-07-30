@@ -22,3 +22,5 @@ module ActiveRecordAttributesEquality
   end # included
 
 end # ActiveRecordAttributesEquality
+
+ActiveRecord::Base.send :include, ActiveRecordAttributesEquality
