@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.7"
 
-  s.add_dependency(%q<activerecord>, [">= 3.0.0"])
+  s.add_dependency('activerecord', "~> 3.0.0")
 
   s.files        = Dir.glob("{lib}/**/*") + %w(MIT-LICENSE README.md)
   s.require_path = 'lib'

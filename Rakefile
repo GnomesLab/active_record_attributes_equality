@@ -21,3 +21,6 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('README.md')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+require 'bundler/setup'
+Bundler::GemHelper.install_tasks
