@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
 
   s.name        = "active_record_attributes_equality"
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = "Forces ActiveRecord::Base equality to look into the attributes hash."
 
   s.authors     = ["Diogo Almeida"]
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.7"
 
-  s.add_dependency(%q<activerecord>, [">= 3.0.0.rc"])
+  s.add_dependency(%q<activerecord>, [">= 3.0.0"])
 
   s.files        = Dir.glob("{lib}/**/*") + %w(MIT-LICENSE README.md)
   s.require_path = 'lib'

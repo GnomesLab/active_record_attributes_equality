@@ -1,25 +1,24 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (3.0.0.rc)
-      activesupport (= 3.0.0.rc)
+    activemodel (3.0.7)
+      activesupport (= 3.0.7)
       builder (~> 2.1.2)
-      i18n (~> 0.4.1)
-    activerecord (3.0.0.rc)
-      activemodel (= 3.0.0.rc)
-      activesupport (= 3.0.0.rc)
-      arel (~> 0.4.0)
-      tzinfo (~> 0.3.22)
-    activesupport (3.0.0.rc)
+      i18n (~> 0.5.0)
+    activerecord (3.0.7)
+      activemodel (= 3.0.7)
+      activesupport (= 3.0.7)
+      arel (~> 2.0.2)
+      tzinfo (~> 0.3.23)
+    activesupport (3.0.7)
     archive-tar-minitar (0.5.2)
-    arel (0.4.0)
-      activesupport (>= 3.0.0.beta)
+    arel (2.0.10)
     builder (2.1.2)
-    columnize (0.3.1)
-    i18n (0.4.1)
-    linecache19 (0.5.11)
+    columnize (0.3.2)
+    i18n (0.5.0)
+    linecache19 (0.5.12)
       ruby_core_source (>= 0.1.4)
-    ruby-debug-base19 (0.11.23)
+    ruby-debug-base19 (0.11.25)
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
       ruby_core_source (>= 0.1.4)
@@ -27,13 +26,13 @@ GEM
       columnize (>= 0.3.1)
       linecache19 (>= 0.5.11)
       ruby-debug-base19 (>= 0.11.19)
-    ruby_core_source (0.1.4)
+    ruby_core_source (0.1.5)
       archive-tar-minitar (>= 0.5.2)
-    tzinfo (0.3.22)
+    tzinfo (0.3.27)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (= 3.0.0.rc)
+  activerecord (~> 3.0.0)
   ruby-debug19
