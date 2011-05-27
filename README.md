@@ -34,7 +34,7 @@ gem "active_record_attributes_equality"
 #### As a Rails 3 plugin
 
 <pre>
-rails rails plugin install git@github.com:GnomesLab/active_record_attributes_equality.git
+rails plugin install git@github.com:GnomesLab/active_record_attributes_equality.git
 </pre>
 
 
